@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/drawer_news"
+                android:icon="@mipmap/ic_menu_news"
+                android:checkable="true"
+                android:title="@string/news"/>
+
+            <item
+                android:id="@+id/drawer_photo"
+                android:icon="@mipmap/ic_menu_photo"
+                android:checkable="true"
+                android:title="@string/photo"/>
+            <item
+                android:id="@+id/drawer_video"
+                android:icon="@mipmap/ic_menu_video"
+                android:checkable="true"
+                android:title="@string/video"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+    <menu>
+
+        <item
+            android:id="@+id/drawer_like"
+            android:icon="@mipmap/ic_drawer_like"
+            android:checkable="true"
+            android:title="@string/drawer_collection"/>
+
+        <item
+            android:id="@+id/drawer_about"
+            android:icon="@mipmap/ic_drawer_about"
+            android:checkable="true"
+            android:title="@string/drawer_about"/>
+
+
+        <item
+            android:id="@+id/drawer_share"
+            android:checked="false"
+            android:icon="@mipmap/ic_share"
+            android:checkable="true"
+            android:title="@string/drawer_share"/>
+
+        <item
+            android:id="@+id/drawer_night"
+            android:checked="false"
+            android:icon="@mipmap/ic_menu_night_mode"
+            android:checkable="true"
+            android:title="@string/drawer_night"/>
+
+
+        <item
+            android:id="@+id/drawer_setting"
+            android:checked="false"
+            android:icon="@mipmap/ic_drawer_setting"
+            android:checkable="true"
+            android:title="@string/drawer_setting"/>
+
+
+
+    </menu>
+
+    </item>
+</menu>

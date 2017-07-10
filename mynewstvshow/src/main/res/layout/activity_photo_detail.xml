@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:background="@color/cardview_dark_background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/photo_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <android.support.v7.widget.Toolbar
+        app:title="@string/photo_name"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:navigationIcon="@mipmap/ic_arrow_back">
+
+    </android.support.v7.widget.Toolbar>
+
+
+</FrameLayout>
